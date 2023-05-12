@@ -1,10 +1,8 @@
 import Header from "@/components/Header";
 import Head from "next/head";
-import { API_KEY, CONTEXT_KEY } from "../api";
 import Response from "../Response";
 import { useRouter } from "next/router";
 import { SearchBody } from "@/components/SearchBody";
-import { Footer } from "@/components/Footer";
 
 const Search = ({ results }) => {
   const router = useRouter();
