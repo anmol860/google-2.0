@@ -8,7 +8,7 @@ const Search = ({ results }) => {
   const router = useRouter();
 
   return (
-    <div className="dark:bg-[#121212]">
+    <div className="">
       <Head>
         <title>{`${router.query.term} - Google Search`}</title>
       </Head>
@@ -20,11 +20,11 @@ const Search = ({ results }) => {
       <footer
         className="grid w-full bg-gray-100
     text-sm text-gray-500
-    dark:bg-[#30303030]"
+    "
       >
         <div
           className="px-8 py-3
-        dark:text-[#e2e2e2]"
+        "
         >
           <p>United States</p>
         </div>

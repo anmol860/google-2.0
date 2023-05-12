@@ -13,12 +13,12 @@ export const Header2 = () => {
     <div
       className="flex w-full justify-evenly text-gray-700 text-sm border-b
     lg:text-base lg:justify-start lg:space-x-36 lg:pl-52
-    dark:border-gray-400"
+    "
     >
       {/*Left*/}
       <div
         className="flex space-x-6
-        dark:text-[#dfdfdf]"
+        "
       >
         <HeaderOption Icon={SearchIcon} title="All" selected />
         <HeaderOption Icon={PhotographIcon} title="Images" />
@@ -31,7 +31,7 @@ export const Header2 = () => {
       {/*Right*/}
       <div
         className="flex space-x-4
-        dark:text-gray-400"
+        "
       >
         <p className="link">Settings</p>
         <p className="link">Tools</p>

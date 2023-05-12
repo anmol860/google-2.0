@@ -9,7 +9,7 @@ export const Pagination = () => {
   return (
     <div
       className="flex justify-between max-w-lg text-blue-700 pb-10
-    dark:text-blue-400"
+    "
     >
       {startIndex >= 10 && (
         <Link

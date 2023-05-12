@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <header
       className="sticky top-0 bg-white
-    dark:bg-[#121212]"
+    "
     >
       <div className="flex w-full p-6 items-center">
         <Image
@@ -33,15 +33,12 @@ const Header = () => {
           onClick={() => router.push("/")}
           className="cursor-pointer"
         />
-        <form
-          className="flex px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center flex-grow
-        dark:border-gray-600 dark:hover:shadow-lg dark:hover:shadow-[#30303030] dark:focus-within:shadow-[#30303030]"
-        >
+        <form className="flex px-6 py-3 ml-10 mr-5 border border-gray-200 rounded-full shadow-lg max-w-3xl items-center flex-grow">
           <input
             ref={searchInputRef}
             type="text"
             className="flex-grow focus:outline-none
-            dark:bg-[#121212] dark:text-white"
+            "
             defaultValue={router.query.term}
           />
           <XIcon
@@ -52,7 +49,7 @@ const Header = () => {
           <MicrophoneIcon
             className="h-6 mr-3 text-blue-500 border-l-2 border-gray-300 pl-4 hidden
             sm:inline-flex
-            dark:border-gray-600"
+            "
           />
           <SearchIcon
             className="h-6 text-blue-500 hidden

@@ -5,11 +5,11 @@ export const Footer = () => {
     <footer
       className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100 absolute bottom-0
     text-sm text-gray-500
-    dark:bg-[#30303030] dark:divide-[#3f3f3f]"
+    "
     >
       <div
         className="px-8 py-3
-        dark:text-[#e2e2e2]"
+        "
       >
         <p>United States</p>
       </div>
@@ -22,7 +22,7 @@ export const Footer = () => {
             md:col-span-2 lg:col-span-1 lg:col-start-2"
         >
           <GlobeIcon className="h-5 mr-1 text-green-700" />
-          <span className="dark:text-[#ababab]">Carbon neutral since 2007</span>
+          <span className="">Carbon neutral since 2007</span>
         </div>
         <div
           className="flex justify-center space-x-8 whitespace-nowrap
