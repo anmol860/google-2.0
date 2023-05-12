@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@atlaskit/toggle": "^12.6.0",
     "@callstack/react-theme-provider": "^3.0.8",
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/line-clamp": "^0.4.4",

@@ -10,7 +10,6 @@ import { SearchIcon } from "@heroicons/react/outline";
 import { Footer } from "@/components/Footer";
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/router";
-import Toggle from "@atlaskit/toggle";
 
 export default function Home() {
   const router = useRouter();
@@ -65,15 +64,11 @@ export default function Home() {
           <div className="flex items-center space-x-1 hover:scale-105 duration-100">
             <p
               onClick={handletheme}
-              className="text-white sm:hidden md:hidden lg:hidden bg-black rounded-full text-center mr-2 line-clamp-1
+              className="text-white bg-black rounded-full text-center mr-2 line-clamp-1 p-1
              dark:bg-white dark:text-black"
             >
               {theme === "light" ? "Dark mode" : "Light mode"}
             </p>
-            <span className="hidden sm:inline-flex dark:text-white">
-              Dark mode
-              <Toggle onChange={handletheme} />
-            </span>
           </div>
         </div>
 
