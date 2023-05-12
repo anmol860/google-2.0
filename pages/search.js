@@ -7,7 +7,6 @@ import { SearchBody } from "@/components/SearchBody";
 const Search = ({ results }) => {
   const router = useRouter();
 
-  console.log(results);
   return (
     <div className="dark:bg-[#121212]">
       <Head>
