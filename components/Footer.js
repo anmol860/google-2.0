@@ -3,7 +3,7 @@ import { GlobeIcon } from "@heroicons/react/solid";
 export const Footer = () => {
   return (
     <footer
-      className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100
+      className="grid w-full divide-y-[1px] divide-gray-300 bg-gray-100 relative
     text-sm text-gray-500
     "
     >
