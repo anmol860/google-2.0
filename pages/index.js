@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div
-      className="flex flex-col justify-center items-center h-screen flex-grow
+      className="flex flex-col justify-center items-center h-screen
     "
     >
       <Head>
@@ -79,7 +79,7 @@ export default function Home() {
       </header>
 
       {/*Body*/}
-      <form className="flex flex-col items-center mt-20 flex-grow w-4/5">
+      <form className="flex flex-col items-center mt-20 flex-grow w-4/5 sm:mb-4cm">
         <Image
           src="https://www.google.co.uk/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
           height={100}
