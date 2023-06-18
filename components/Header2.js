@@ -11,7 +11,7 @@ import { HeaderOption } from "./HeaderOption";
 export const Header2 = () => {
   return (
     <div
-      className="flex w-full justify-evenly text-gray-700 text-sm border-b
+      className="flex w-screen justify-evenly text-gray-700 text-sm border-b
     lg:text-base lg:justify-start lg:space-x-36 lg:pl-52
     "
     >
